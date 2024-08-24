@@ -5,5 +5,10 @@ openai==0.27.8
 revChatGPT==6.8.6
 GoogleBard==2.1.0
 EdgeGPT==0.13.2
-selenium==4.9.1
+selenium==4.15.1
 undetected-chromedriver==3.4.7
+aiohttp>=3.10.2 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
